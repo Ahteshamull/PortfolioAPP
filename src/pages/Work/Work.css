@@ -1,0 +1,33 @@
+.work {
+  padding-left: 150px;
+  margin: 50px 0;
+  background: #13878121;
+}
+.work hr {
+  color: #138781;
+max-width: 500px;
+  margin: 10px auto;
+}
+.work h1 {
+  font-weight: bold;
+  color: #c112ed;
+}
+#dark .work h1 {
+  font-weight: bold;
+  color: #fcfcfc;
+}
+.vertical-timeline::before {
+  background: #5b456f;
+}
+.vertical-timeline-element-content {
+
+    background: #5acaaa;
+    color: #fffbfb;
+}
+@media (max-width: 599px){
+  .work{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+}

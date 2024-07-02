@@ -1,0 +1,37 @@
+.education {
+  padding-left: 150px;
+  margin: 50px 0;
+}
+
+.education h1 {
+  font-weight: bold;
+  color: #138781;
+}
+#dark .education h1 {
+  font-weight: bold;
+  color: #f9f9f9;
+}
+.education hr {
+  color: #138781;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.sbtn {
+  text-align: center;
+  color: white;
+}
+.education .cgpa {
+  color: black;
+}
+@media (max-width: 599px) {
+  .education {
+    /* padding-left: 150px; */
+    /* margin: 50px 0; */
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+  }
+  .education a {
+    margin-left: 60px;
+  }
+}

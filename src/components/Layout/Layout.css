@@ -1,0 +1,38 @@
+.sidebar-section {
+  display: flex;
+  background: #000;
+}
+#dark .sidebar-section {
+  display: flex;
+  background: #231d12;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #1e1e1e;
+  width: 90px;
+  position: fixed;
+}
+.sidebar-toggle {
+  width: 230px;
+}
+.sidebar-toggle-icon {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.sidebar-toggle-icon p svg {
+  background-color: #f29f67;
+  color: white;
+  margin-top: 30px;
+}
+.sidebar-toggle-icon p svg:hover {
+  background-color: #36ef77;
+}
+@media (max-width: 599px) {
+  .sidebar {
+    display: none;
+  }
+}

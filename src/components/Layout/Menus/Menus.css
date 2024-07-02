@@ -1,0 +1,31 @@
+.nav-prf-pic img {
+  border-radius: 90px;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-right: 40px;
+}
+.nav-item {
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.nav-link {
+  margin-top: 15px;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #f29f67;
+}
+.nav-item .nav-link:active  {
+  color: #f29f67;
+  border-left: 5px solid #f29f67;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.nav-link svg {
+  margin-right: 10px;
+}
