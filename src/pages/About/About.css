@@ -58,7 +58,7 @@
   }
   .about-content p {
     width: 100%;
-    padding: 0;
+    padding: 0px 30px 30px 30px;
     margin: 20px;
   }
 }

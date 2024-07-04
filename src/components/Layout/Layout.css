@@ -35,4 +35,10 @@
   .sidebar {
     display: none;
   }
+      .home-buttons .btn-hire {
+        /* background: #3b8ff3; */
+        /* color: white; */
+        width: 100px;
+        /* transition: 0.4s; */
+    }
 }
