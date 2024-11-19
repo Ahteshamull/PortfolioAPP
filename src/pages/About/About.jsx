@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <>
-      <Fade top>
+      
         <div className="container-fluid" id="about">
           <div className="about">
             <div className="row">
@@ -31,7 +31,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </Fade>
+      
     </>
   );
 };

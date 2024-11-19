@@ -1,4 +1,3 @@
-
 import Layout from "./components/Layout/Layout";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -7,7 +6,7 @@ import Projects from "./pages/Projects/Projects";
 import Task from "./pages/Tack/Task";
 import Work from "./pages/Work/Work";
 import Tada from "react-reveal/Tada";
-import ScrollToTop from "react-scroll-to-top"
+import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./Context/Theme";
 import Mobilenav from "./components/Layout/Mobilenav/Mobilenav";
 const App = () => {
@@ -15,7 +14,7 @@ const App = () => {
   return (
     <>
       <div id={theme}>
-        <Mobilenav/>
+        <Mobilenav />
         <Layout />
         <div className="container">
           <About />
@@ -26,10 +25,7 @@ const App = () => {
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">
-          <Tada>
-
           <h4 className="text-center">Made With 💕 Hasan &copy; 2024...!</h4>
-          </Tada>
         </div>
       </div>
       <ScrollToTop

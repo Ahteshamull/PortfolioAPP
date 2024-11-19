@@ -14,14 +14,14 @@ const Contact = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
                 <div className="card1">
                 <div className="row border-line">
-                    <LightSpeed>
+                    
                       
                   <img className="image" src="contact.jpg" alt="Contact" />
-                  </LightSpeed>
+                  
                 </div>
               </div>
             </div>
-            <Fade top>
+            
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
               <div className="card2 d-flex card border-0 px-4 py-3">
                 <div className="row">
@@ -72,7 +72,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            </Fade>
+            
           </div>
         </div>
       </div>

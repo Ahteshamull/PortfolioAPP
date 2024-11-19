@@ -24,7 +24,7 @@ const Projects = () => {
           will display the movie review in the fourth title pane.
         </p>
         <div className="row" id="ads">
-          <Spin>
+          
 
           <div className="col-md-4">
             <div className="card rounded">
@@ -101,7 +101,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          </Spin>
+          
         </div>
       </div>
     </>

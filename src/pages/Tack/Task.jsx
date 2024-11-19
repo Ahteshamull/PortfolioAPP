@@ -8,16 +8,16 @@ const Task = () => {
   return (
       <>
           <div className="container task" id='task'>
-              <RubberBand>
+              
                   
               <h1 className='col-12 mt-3 mb-1 text-center text-uppercase'> Technologies Stack</h1>
               <hr />
               <p className='pb-3 text-center'>🤏 Including programming Language, framework,database, front-end and back-end tools, and APIs</p>
-              </RubberBand>
+              
               <div className="row">
                       
               {Tasklist.map(tech => (
-                  <Fade left>
+                  
                   <div key={tech._id} className="col-md-3">
                       <div className="card m-2">
                           <div className="card-content">
@@ -36,7 +36,7 @@ const Task = () => {
                       </div>
                   </div>
                   
-                  </Fade>
+                  
                 )
                 
             )}

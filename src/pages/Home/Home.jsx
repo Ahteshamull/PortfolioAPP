@@ -4,7 +4,7 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import Fade from "react-reveal/Fade";
 
-import Resume from "../../assets/docs/CV.pdf";
+import Resume from "../../assets/docs/Hasan-resume.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 
 const Home = () => {
@@ -23,36 +23,32 @@ const Home = () => {
           )}
         </div>
         <div className="container home-content">
-          <Fade right>
-            <h2>Hey✌️I'm a</h2>
-            <h1>
-              <Typewriter
-                options={{
-                  strings: [
-                    "FullStack Developer !",
-                    "MERN Stack Developer !",
-                    "React native Developer !",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h1>
-          </Fade>
-          <Fade bottom>
-            <div className="home-buttons">
-              <a
-                className="btn btn-hire"
-                href="http://api.whatsapp.com/send?phone=01902754329"
-               
-              >
-                Hire Me
-              </a>
-              <a className="btn btn-CV" href={Resume} download="your_name_.pdf">
-                My Resume
-              </a>
-            </div>
-          </Fade>
+          <h2>Hey✌️I'm a</h2>
+          <h1>
+            <Typewriter
+              options={{
+                strings: [
+                  "FullStack Developer !",
+                  "MERN Stack Developer !",
+                  "React native Developer !",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h1>
+
+          <div className="home-buttons">
+            <a
+              className="btn btn-hire"
+              href="http://api.whatsapp.com/send?phone=+8801924542671"
+            >
+              Hire Me
+            </a>
+            <a className="btn btn-CV" href={Resume} download="Hasan-resume.pdf">
+              My Resume
+            </a>
+          </div>
         </div>
       </div>
     </>
